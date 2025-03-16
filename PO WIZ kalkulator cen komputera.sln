@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PO WIZ kalkulator cen komputera", "PO WIZ kalkulator cen komputera\PO WIZ kalkulator cen komputera.csproj", "{B836CE26-8C0D-49CA-8BB6-01B4127D554D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B836CE26-8C0D-49CA-8BB6-01B4127D554D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B836CE26-8C0D-49CA-8BB6-01B4127D554D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B836CE26-8C0D-49CA-8BB6-01B4127D554D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B836CE26-8C0D-49CA-8BB6-01B4127D554D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6E54F50-D6C8-4066-972D-1FF9DBEEDB73}
+	EndGlobalSection
+EndGlobal
