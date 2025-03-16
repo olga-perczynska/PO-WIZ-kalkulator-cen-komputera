@@ -63,11 +63,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(340, 303);
+            button1.Location = new Point(538, 84);
             button1.Name = "button1";
             button1.Size = new Size(188, 58);
             button1.TabIndex = 4;
-            button1.Text = "Monitor";
+            button1.Text = "Oblicz";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 

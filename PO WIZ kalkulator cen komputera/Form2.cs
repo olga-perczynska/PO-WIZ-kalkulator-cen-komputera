@@ -32,9 +32,9 @@ namespace PO_WIZ_kalkulator_cen_komputera
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
+
+           
             form1.Show();
-            int.TryParse(textBox3.Text, out int liczba);
-            Class1.LiczbaZOkna2 = liczba;
             this.Close();
 
         }
@@ -127,15 +127,26 @@ namespace PO_WIZ_kalkulator_cen_komputera
 
             if (decimal.TryParse(textBox1.Text, out cena1) && decimal.TryParse(textBox2.Text, out cena2))
             {
-                textBox3.Text = (cena1 + cena2).ToString();
+                decimal suma = cena1 + cena2;
+                textBox3.Text = suma.ToString();
+                
+                // Konwersja do int z zaokrągleniem
+                Class1.LiczbaZOkna2 = (int)Math.Round(suma);
             }
             else
             {
                 textBox3.Text = "0";
+                Class1.LiczbaZOkna2 = 0;
             }
         }
 
+
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
