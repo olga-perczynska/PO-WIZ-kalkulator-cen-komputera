@@ -129,6 +129,8 @@ namespace PO_WIZ_kalkulator_cen_komputera
             {
                 decimal suma = cena1 + cena2;
                 textBox3.Text = suma.ToString();
+                
+                // Konwersja do int z zaokrągleniem
                 Class1.LiczbaZOkna2 = (int)Math.Round(suma);
             }
             else

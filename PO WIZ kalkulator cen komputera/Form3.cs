@@ -33,7 +33,7 @@ namespace PO_WIZ_kalkulator_cen_komputera
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+         
         }
 
         private void button1_Click(object sender, EventArgs e)
