@@ -123,7 +123,7 @@ namespace PO_WIZ_kalkulator_cen_komputera
 
         private void ObliczSume()
         {
-            decimal cena1, cena2;
+            decimal cena1, cena2;///dupa
 
             if (decimal.TryParse(textBox1.Text, out cena1) && decimal.TryParse(textBox2.Text, out cena2))
             {
